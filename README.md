@@ -1,5 +1,7 @@
 # SWAN Tutorial
-Wakis introduction and hands-on examples prepared to run on CERN's SWAN Service: https://swan.web.cern.ch/swan/
+Wakis introduction and hands-on examples prepared to run on CERN's SWAN Service: https://swan.web.cern.ch/swan/:
+
+[<img class="open_in_swan" data-path="your_submodule_name" alt="Open this Gallery in SWAN" src="https://swanserver.web.cern.ch/swanserver/images/badge_swan_white_150.png">][gallery_url]
 
 Involving all our in-house python-packages of the impedance assessment workflow: 
 * [`Wakis`](https://github.com/ImpedanCEI/wakis) for the 3D electromagnetic wakefield simulations,
@@ -47,3 +49,5 @@ To run mpi simulations in notebook 003, we need to update the `ipyparallel` pack
 pip install ipyparallel==9.0.1
 pip install mpi4py
 ```
+
+[gallery_url]:https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/dpiparo/swanExamples.git
