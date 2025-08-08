@@ -13,8 +13,10 @@ The suggested configuration for running Wakis on SWAN is to profit from the GPU 
 <p align="center">
   <img src="data/swan_configuration.png" alt="SWAN example configuration" width="300"/>
 </p>
+
 We suggest using the JupyterLab interface for easy access to the terminal for monitoring and better display of on-the-fly generated plots. 
 * ☑️ `Try the new JupyterLab interface (experimental)` - Recommended
+
 To use Wakis on SWAN -or any user installed packages-, the following checkbox should be ticked:
 * ☑️ `Use Python packages installed on CERNBox` - Needed
 
