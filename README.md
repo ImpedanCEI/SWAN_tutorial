@@ -10,8 +10,9 @@ Involving all our in-house python-packages of the impedance assessment workflow:
 ## SWAN confoguration
 The suggested configuration for running Wakis on SWAN is to profit from the GPU resources available: Tesla T4(15 Gb) and A100 partition (40 Gb):
 
-![SWAN example configuration](data/swan_configuration.png)
-
+<p align="center">
+  <img src="data/swan_configuration.png" alt="SWAN example configuration" width="300"/>
+</p>
 We suggest using the JupyterLab interface for easy access to the terminal for monitoring and better display of on-the-fly generated plots. 
 * ☑️ `Try the new JupyterLab interface (experimental)` - Recommended
 To use Wakis on SWAN -or any user installed packages-, the following checkbox should be ticked:
@@ -39,7 +40,8 @@ pip install --extra-index-url https://wheels.vtk.org vtk-osmesa
 ```
 The 3D plots will be saved as an `HTML` scene that can be embedded with `IFrame` in the notebook.
 
-To run mpi simulations, we need to update the `ipyparallel` package avialable in SWAN:
+To run mpi simulations in notebook 003, we need to update the `ipyparallel` package avialable in SWAN and install mpi4py:
 ```bash
 pip install ipyparallel==9.0.1
+pip install mpi4py
 ```
