@@ -50,4 +50,4 @@ pip install ipyparallel==9.0.1
 pip install mpi4py
 ```
 
-[gallery_url]:https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/dpiparo/swanExamples.git
+[gallery_url]:https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/ImpedanCEI/SWAN_tutorial.git
