@@ -43,11 +43,20 @@ pip uninstall vtk -y
 pip install --extra-index-url https://wheels.vtk.org vtk-osmesa
 ```
 The 3D plots will be saved as an `HTML` scene that can be embedded with `IFrame` in the notebook.
+If the pyvista plots fail to make interactive plots and instead are stuck in static mode, it might be necessary to install or update the trame:
+```bash
+pip install trame
+pip install --upgrade trame-vdom trame-client trame-server trame-vuetify
+```
 
 To run mpi simulations in notebook 003, we need to update the `ipyparallel` package avialable in SWAN and install mpi4py:
 ```bash
 pip install ipyparallel==9.0.1
 pip install mpi4py
+```
+To work with Wakis on Swan in an elegant editor setup, navigate to the outer wakis folder (this folder was cloned previously from Git) with $cd wakis$ and go:
+```bash
+pip install -e .
 ```
 
 [gallery_url]:https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/ImpedanCEI/SWAN_tutorial.git
