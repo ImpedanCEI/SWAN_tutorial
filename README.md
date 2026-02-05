@@ -59,7 +59,7 @@ To work with Wakis on Swan in an elegant editor setup, navigate to the outer wak
 pip install -e .
 ```
 Ops! Issues with importing the `pip install`-ed packages in the EOS have been experienced in this editor mode on Swan. 
-Same applies to importing modules in the wakis package such as SolverFIT3D, even when navigating the system path with sys.append().
+Same applies to importing modules in the wakis package such as SolverFIT3D, even when changing the system path with sys.append().
 However, these issues only occured when running notebooks located outside the Wakis root directory.
 
 [gallery_url]:https://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/ImpedanCEI/SWAN_tutorial.git
